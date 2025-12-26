@@ -1,0 +1,65 @@
+# General settings
+live_config_reload = true    # Alacritty updates immediately when you save this file
+
+[env]
+TERM = "xterm-256color"      # Sets the terminal type for proper color support
+
+[window]
+padding = { x = 10, y = 10 } # Adds 10px spacing between the text and window edge
+opacity = 1.0                # 0.0 is fully transparent, 1.0 is opaque
+decorations = "none"         # Options: "full" (borders/title bar), "none", "transparent"
+startup_mode = "Windowed"    # Options: "Windowed", "Maximized", "Fullscreen"
+title = "Alacritty"          # The text displayed in the title bar
+
+# Dynamic title allows the shell to change the window title (e.g., showing the current path)
+dynamic_title = true
+
+[scrolling]
+history = 10000              # How many lines of scrollback to keep
+multiplier = 3               # How many lines to scroll per mouse wheel tick
+
+[font]
+size = 12.0                  # Font size in points
+
+# You can specify a font family. If you don't, it uses your system's default monospace.
+# To use a specific font, uncomment the lines below and change "JetBrainsMono NF" to your font.
+
+# [font.normal]
+# family = "JetBrainsMono NF"
+# style = "Regular"
+
+# [font.bold]
+# family = "JetBrainsMono NF"
+# style = "Bold"
+
+[cursor]
+style = { shape = "Block", blinking = "On" } # Options: Block, Underline, Beam
+blink_interval = 750         # Speed of the cursor blink in milliseconds
+
+[colors]
+# This is a basic "default" color scheme. 
+# You can swap these hex codes for any theme (e.g., Dracula, Nord).
+
+[colors.primary]
+background = "#1d1f21"       # The main window background color (Dark Grey)
+foreground = "#c5c8c6"       # The main text color (Light Grey)
+
+[colors.normal]
+black   = "#1d1f21"
+red     = "#cc6666"
+green   = "#b5bd68"
+yellow  = "#f0c674"
+blue    = "#81a2be"
+magenta = "#b294bb"
+cyan    = "#8abeb7"
+white   = "#c5c8c6"
+
+[colors.bright]
+black   = "#666666"
+red     = "#d54e53"
+green   = "#b9ca4a"
+yellow  = "#e7c547"
+blue    = "#7aa6da"
+magenta = "#c397d8"
+cyan    = "#70c0b1"
+white   = "#eaeaea"
