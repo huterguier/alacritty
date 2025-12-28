@@ -1,5 +1,5 @@
 # General settings
-live_config_reload = true    # Alacritty updates immediately when you save this file
+general.live_config_reload = true    # Alacritty updates immediately when you save this file
 
 [env]
 TERM = "xterm-256color"      # Sets the terminal type for proper color support
