@@ -11,6 +11,9 @@ decorations = "none"         # Options: "full" (borders/title bar), "none", "tra
 startup_mode = "Windowed"    # Options: "Windowed", "Maximized", "Fullscreen"
 title = "Alacritty"          # The text displayed in the title bar
 
+[terminal]
+osc52 = "CopyPaste"
+
 # Dynamic title allows the shell to change the window title (e.g., showing the current path)
 dynamic_title = true
 
