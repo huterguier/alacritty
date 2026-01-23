@@ -14,9 +14,6 @@ title = "Alacritty"          # The text displayed in the title bar
 [terminal]
 osc52 = "CopyPaste"
 
-# Dynamic title allows the shell to change the window title (e.g., showing the current path)
-dynamic_title = true
-
 [scrolling]
 history = 10000              # How many lines of scrollback to keep
 multiplier = 3               # How many lines to scroll per mouse wheel tick
