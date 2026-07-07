@@ -21,16 +21,21 @@ multiplier = 3               # How many lines to scroll per mouse wheel tick
 [font]
 size = 12.0                  # Font size in points
 
-# You can specify a font family. If you don't, it uses your system's default monospace.
-# To use a specific font, uncomment the lines below and change "JetBrainsMono NF" to your font.
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
 
-# [font.normal]
-# family = "JetBrainsMono NF"
-# style = "Regular"
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
 
-# [font.bold]
-# family = "JetBrainsMono NF"
-# style = "Bold"
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
 
 [cursor]
 style = { shape = "Block", blinking = "On" } # Options: Block, Underline, Beam
